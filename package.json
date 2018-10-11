@@ -1,0 +1,40 @@
+{
+  "name": "hapi-acquaint-mongodb",
+  "version": "1.0.0",
+  "author": "Andrew E. bunac <andrewbunac@gmail.com> ",
+  "description": "Sample Project of Hapi and Acquaint with mongodb",
+  "keywords": [
+    "hapi",
+    "route",
+    "handler",
+    "method",
+    "plugin",
+    "loader",
+    "autoload",
+    "autoloader",
+    "aquaint",
+    "mongodb",
+    "mongoose"
+  ],
+  "license": "MIT",
+  "repository": "https://github.com/CodeFreeeze/hapi-acquaint-mongodb.git",
+  "main": "server.js",
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "scripts": {
+    "test": "lab -c -v -L -a code",
+    "test-cover": "lab -c -v -L -a code -r html -o ./coverage.html -L && open ./coverage.html"
+  },
+  "devDependencies": {
+    "code": "5.2.x",
+    "coveralls": "3.0.x",
+    "hapi": "17.2.x",
+    "lab": "15.4.x"
+  },
+  "dependencies": {
+    "joi": "13.1.x",
+    "glob": "7.1.x",
+    "async": "2.6.x"
+  }
+}
